@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
-from ecolab3.environment import Environment
-from ecolab3.agents import Fish
-from ecolab3 import run_ecolab, get_agent_counts
+from lib.environment import Environment
+from lib.agents import Fish
+from lib import run_ecolab, get_agent_counts
 
 env = Environment(shape=[100,100])
 
